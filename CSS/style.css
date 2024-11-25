@@ -1,3 +1,9 @@
+/* Universal code */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* Share font */
 .font{
     font-family: "Lato", sans-serif;
@@ -33,41 +39,48 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
   }
-  nav ul li a:hover{
+nav ul li a:hover{
     color: aquamarine;
     background-color: burlywood;
   }
-  .bg-color{
-    background-color: #e8899d;
+.bg-color{
+    background-color: #f4b2e0;
   }
   /* Header-Section End */
  main{
     max-width: 1400px;
- }
+  }
   /* <!-- Banner-Section Start --> */
-    .container{
-        border: 1px solid red;
-        width: 90%;
-        display: flex;
-        margin: 0 auto;
-    }
-    .banner-text{
-        width: 50%;
-        border: 1px solid tomato;
-    }
-    .banner-img{
-        width: 50%;
-        border: 1px solid tomato;
-    }
-    .b-h1{
-        font-size: 80px;
-        font-weight: 800px;
-    }
-    .b-p{
-
-    }
-    .btn-primary{
-
-    }
+.container{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+  }
+.banner-text{
+    width: 50%;
+    margin: 100px 100px 0 100px;
+  }
+.banner-img{
+   width: 50%;
+   margin: 100px 0 0 100px;
+  }
+.b-h1{
+   font-size: 80px;
+   font-weight: 800px;
+  }
+.b-p{
+   font-size: 18px;
+   margin: 20px 0;
+  }
+.btn-primary{
+   font-size: 20px;
+   font-weight: bold;
+   background-color: #E55473;
+   padding: 20px 43px;
+   border-radius: 08px;
+ }
+ .banner-img img{
+  width: 100%;
+ }
   /* <!-- Banner-Section End --> */
 
