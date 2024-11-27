@@ -8,12 +8,9 @@
   text-align: center;
   font-size: 40px;
   font-weight: 800;
-  margin: 0 50px;
+  
 }
-.p-description{
-    font-size: 18px;
-    text-align: center;
-}
+
 /* Share font */
 
 .font{
@@ -56,6 +53,7 @@ nav ul li a:hover{
   }
 .bg-color{
     background-color: #f4b2e0;
+    max-width: 1400px;
   }
   /* Header-Section End */
  main{
@@ -83,10 +81,11 @@ nav ul li a:hover{
    margin: 20px 0;
   }
 .btn-primary{
-   font-size: 20px;
+   font-size: 15px;
    font-weight: bold;
+   color: white;
    background-color: #E55473;
-   padding: 20px 43px;
+   padding: 12px 18px;
    border-radius: 08px;
  }
  .banner-img img{
@@ -94,31 +93,43 @@ nav ul li a:hover{
  }
    /* Banner-Section End */
   /* Feature-Section Start */
+  
   .feature-content{
-    width: 50%;
-    margin: o auto;
-   
+    margin-top: 150px;
+  }
+  .container-content{
+    margin: 50px ;
   }
   .f-h2{
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    /* margin: 0 auto; */
+    
   }
   .f-p{
     text-align: center;
-    margin: 0 auto;
+    margin: 14px 414px 48px 423px;
   }
   .feature-img{
+    justify-content: center;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
+    gap: 30px;
   }
+
   .first-img img,.second-img img,.third-img img{
     width: 250px;
-    height: 350px;
+    height: 300px;
   }
-  
+  .First-img{
+   margin: 70px 50px;
+   font-weight: 400;
+  }
+  .img-p{
+    font-size: 10px;
+  }
+  .tree{
+    
+  }
   #first{
     background-color: #d188ac;
     border-radius: 100px 100px 0 0;
@@ -131,21 +142,20 @@ nav ul li a:hover{
     background-color: #b7de8f;
     border-radius: 100px 100px 0 0;
   }
-  .tree{
-    display: flex;
-    justify-content: space-around;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 32px;
-  }
-  .i-h2{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-  }
+  
+  
+  /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
   .container-conts{
-    background-color: #bfdaa7;
-    margin: 20px;
+    background-color: #e9eae9;
+    margin: 150px 250px 200px 250px;
+  }
+  .feature-image{
+    justify-content: center;
+    display: flex;
   }
   .container-cox{
     display: flex;
@@ -161,24 +171,50 @@ nav ul li a:hover{
     padding: 20px 0 20px 0;
   }
   .b2-img{
-    
+    padding: 0px;
   }
   /* Feture-Section End */
   /* Instagram-Section Start */
-  
+  .instagram-content{
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .container-cont{
+    margin-left: 200px;
+    margin-bottom: 100px;
+  }
+  .i-h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .i-p{
+    text-align: center;
+    margin: 14px 414px 48px 423px
+  }
+ 
   .instagram-images{
+    margin-top: 48px;
     justify-content: space-evenly;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 70px;
+    width: 250px;
   }
   .first-img{
-    width: 265px;
-   
+    height: 300px;
+    width: 300px;
   }
   .first-img img{
     width: 100%;
     border-radius: 10px;
   }
+  /* #First{
+    margin-left: 20px;
+  }
+  #Fourth{
+    margin-left: 20px;
+  } */
   /* Instagram-Section End */
   /* Deals-Section Start */
   .container-context{
@@ -218,7 +254,7 @@ nav ul li a:hover{
   }
   .container-dox{
     background-color: #111010;
-    margin: 15px;
+    /* margin: 15px; */
     border-radius: 10px;
     padding: 100px;
   }
@@ -230,7 +266,7 @@ nav ul li a:hover{
     padding: 20px;
   }
   span{
-    color: rgb(198, 76, 135);
+    color: rgb(234, 29, 128);
   }
   .d2-p1{
     color: white;
