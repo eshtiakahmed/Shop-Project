@@ -115,32 +115,31 @@ nav ul li a:hover{
     display: flex;
     gap: 30px;
   }
-
+  .first-img{
+    height: 300px;
+    width: 250px;
+  }
   .first-img img,.second-img img,.third-img img{
     width: 250px;
     height: 300px;
   }
-  .First-img{
-   margin: 70px 50px;
-   font-weight: 400;
-  }
-  .img-p{
-    font-size: 10px;
-  }
+ 
   .tree{
     
   }
+ 
+
   #first{
     background-color: #d188ac;
-    border-radius: 100px 100px 0 0;
+    border-radius: 120px 120px 0 0;
   }
   #second{
     background-color: #93cccf;
-    border-radius: 100px 100px 0 0;
+    border-radius: 120px 120px 0 0;
   }
   #third{
     background-color: #b7de8f;
-    border-radius: 100px 100px 0 0;
+    border-radius: 120px 120px 0 0;
   }
   
   
@@ -156,6 +155,13 @@ nav ul li a:hover{
   .feature-image{
     justify-content: center;
     display: flex;
+  }
+  .First-img{
+    margin: 70px 50px;
+    font-weight: 400;
+   }
+  .img-p{
+    font-size: 10px;
   }
   .container-cox{
     display: flex;
@@ -180,7 +186,7 @@ nav ul li a:hover{
     margin-top: 100px;
   }
   .container-cont{
-    margin-left: 200px;
+    margin-left: 250px;
     margin-bottom: 100px;
   }
   .i-h2{
@@ -201,10 +207,7 @@ nav ul li a:hover{
     gap: 70px;
     width: 250px;
   }
-  .first-img{
-    height: 300px;
-    width: 300px;
-  }
+  
   .first-img img{
     width: 100%;
     border-radius: 10px;
