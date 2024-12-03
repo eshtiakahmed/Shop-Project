@@ -1,0 +1,307 @@
+/* Share font */
+
+.font{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#272727;
+}
+/* Universal code */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header title{
+  /* text-align: center; */
+  font-size: 40px;
+  font-weight: 900;  
+}
+.p-description{
+  font-size: 18px;
+  text-align: center;
+  }
+.bg-color{
+    background-color: #FFD4CF;
+  }
+
+  /* Header-Section Start */
+
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+h2 a{
+    font-size: 45px;
+    color: rgb(224, 95, 177);
+    text-decoration: none;
+  }
+nav ul{
+    list-style: none;
+    display: flex;
+  }
+nav ul li{
+    margin-right: 20px;
+    padding: 10px;
+  }
+nav ul li a{
+    text-decoration: none;
+  }
+nav ul li a:hover{
+    color: aquamarine;
+    background-color: burlywood;
+  }
+
+  /* Header-Section End */
+
+ main{
+  max-width: 1440px;
+  margin: -100px auto;
+  }
+ /* Banner-Section Start */
+.container{
+  width: 90%;
+  margin-top: 50px;
+  margin: 0 auto;  
+  }
+  .banner-container{
+  display: flex;
+  }
+.banner-text{
+    width: 50%;
+    margin: 100px 100px 0 100px;
+  }
+.banner-img{
+   width: 50%;
+   margin: 100px 0 0 100px;
+  }
+.b-h1{
+   font-size: 80px;
+   font-weight: 800px;
+  }
+.b-p{
+   font-size: 18px;
+   margin: 20px 0;
+  }
+.btn-primary{
+   font-size: 15px;
+   font-weight: bold;
+   color: white;
+   background-color: #E55473;
+   padding: 12px 18px;
+   border-radius: 08px;
+ }
+ .banner-img img{
+  width: 100%;
+ }
+   /* Banner-Section End */
+  /* Feature-Section Start */
+  
+  .feature-content{
+    margin-top: 120px;
+  }
+  /* .container-content{
+    margin: 50px ;
+  } */
+  .f-h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    
+  }
+  /* .f-p{
+    text-align: center;
+    margin: 14px 414px 48px 423px;
+  } */
+  .feature-img{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 50px;
+    /* gap: 30px; */
+  }
+  .first-img{
+    width: 300px;
+    height: 350px;
+  }
+  .first-img img,.second-img img,.third-img img{
+    width: 250px;
+    height: 350px;
+  }
+ 
+  .tree{
+    display: flex;
+    justify-content: space-around;
+  }
+ .pink{
+  border-bottom: 2px solid black;
+ }
+
+  #first{
+    background-color: #d188ac;
+    border-radius: 140px 140px 0 0;
+  }
+  #second{
+    background-color: #93cccf;
+    border-radius: 140px 140px 0 0;
+  }
+  #third{
+    background-color: #b7de8f;
+    border-radius: 140px 140px 0 0;
+  }
+  
+  
+  /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  /* .container-conts{
+    background-color: #e9eae9;
+    margin: 150px 250px 200px 250px;
+  } */
+  .feature-image{
+    background-color: rgb(232, 220, 220);
+    margin-top: 70px;
+    justify-content: center;
+    display: flex;
+    width: 1170px;
+    margin-left: 60px;
+  }
+  .First-img{
+    margin: 70px 50px;
+    font-weight: 400;
+   }
+  .img-p{
+    font-size: 10px;
+  }
+  .container-cox{
+    display: flex;
+    background-color: #d9bcc2;
+    margin-top: 50px;
+  }
+  .b2-h2{
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: 800;
+    padding: 20px 0 20px 0;
+  }
+  .b2-p{
+    padding: 20px 0 20px 0;
+  }
+  .b2-img{
+    padding: 0px;
+  }
+  /* Feture-Section End */
+  /* Instagram-Section Start */
+  .instagram-content{
+    justify-content: center;
+    margin-top: 100px;
+  }
+  /* .container-cont{
+    margin-left: 250px;
+    margin-bottom: 100px;
+  } */
+  .i-h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  /* .i-p{
+    text-align: center;
+    margin: 14px 414px 48px 423px
+  } */
+ 
+  .instagram-images{
+    margin-top: 48px;
+    /* justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 250px;
+    margin-left: 160px;
+  }
+  
+  .first-img img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  /* #First{
+    margin-left: 20px;
+  }
+  #Fourth{
+    margin-left: 20px;
+  } */
+  /* Instagram-Section End */
+  /* Deals-Section Start */
+  .container-context{
+    background-image:url(../Flower/deals-bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 40px;
+    margin-top: 200px;
+    border-radius: 10px;
+  }
+  .deals-content{
+    margin-top: 48px;
+    text-align: center;
+    padding: 122px 187px;
+    border-radius: 10px;
+  }
+  .d-h2{
+    text-align: center;
+  }
+  .d-p{
+    font-size: 18px;
+    margin: 18px 48px;
+  }
+  input{
+    width: 400px;
+    height: 35px;
+    border: none;
+    border-radius: 05px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  .d-btn{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 05px;
+    background-color: #e96d88;
+  }
+  .container-dox{
+    background-color: #111010;
+    /* margin: 15px; */
+    border-radius: 10px;
+    padding: 100px;
+  }
+  .d2-h2{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    padding: 20px;
+  }
+  span{
+    color: rgb(234, 29, 128);
+  }
+  .d2-p1{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .d2-p2{
+    color: #ffffffa1;
+    text-align: center;
+    font-size: 13px;
+    padding: 30px;
+  }
+  /* Deals-Section End */
+ 
